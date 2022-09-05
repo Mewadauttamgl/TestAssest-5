@@ -1,5 +1,4 @@
 
-//Link is:http://localhost:8080/swagger-ui.html
 
 package com.javainuse.model;
 

@@ -29,7 +29,7 @@ public class EmployeeController {
 		return repo.findAll();
 	}
 
-	@PostMapping(path = "/employees", produces = "application/json")
+	@PostMapping(path = "/employees", consumes = "application/json")
 	public Employee create(@RequestBody Employee employee) {
 		return repo.save(employee);
 	}
